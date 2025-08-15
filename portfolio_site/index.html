@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>My Projects — Portfolio</title>
+  <meta name="description" content="A clean, simple portfolio to showcase projects." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#home">Your Name</a>
+      <nav class="nav">
+        <a href="#projects">Design</a>
+        <a href="#projects" data-filter="Research">Research</a>
+        <a href="#about">About</a>
+        <button id="themeToggle" aria-label="Toggle theme">☼</button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero container">
+      <h1>Hello! I’m a multi-disciplinary designer.</h1>
+      <p class="lead">I work on urban strategy, graphic & interaction design, and design research.
+      This is my collection of selected projects and writing.</p>
+      <a class="scroll-link" href="#projects">scroll</a>
+    </section>
+
+    <section id="projects" class="container">
+      <div class="section-header">
+        <h2>Recent Projects</h2>
+        <div class="filters">
+          <button class="chip is-active" data-filter="all">All</button>
+          <button class="chip" data-filter="Design">Design</button>
+          <button class="chip" data-filter="Research">Research</button>
+        </div>
+      </div>
+      <div id="projectGrid" class="grid"></div>
+    </section>
+
+    <section id="about" class="container about">
+      <h2>About</h2>
+      <div class="about-grid">
+        <div>
+          <p><strong>Based in</strong> Ann Arbor / Detroit</p>
+          <p><strong>Skills</strong> Figma, Illustrator, InDesign, Photoshop, Premiere Pro, Python, SQL</p>
+          <p><strong>Focus</strong> Urban Strategy, Design Research, Editorial Design</p>
+          <p><a href="mailto:you@example.com">Email</a> ·
+             <a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a> ·
+             <a href="#" target="_blank" rel="noopener">Resume</a></p>
+        </div>
+        <div>
+          <p>I’m a designer, storyteller, and city-nerd who loves solving real problems with simple,
+          readable visuals. This website is deliberately minimal so your work stays front-and-center.
+          Add projects via <code>projects.json</code>—no HTML edits required.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer container">
+    <p>© <span id="year"></span> Your Name · <a href="#home" class="back-to-top">Back to top</a></p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
