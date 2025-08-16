@@ -1,4 +1,4 @@
-{
+r{
   "projects": [
     {
       "shortCode": "d1/",
@@ -13,14 +13,14 @@
     },
     {
       "shortCode": "r1/",
-      "title": "Little Village Environmental Report",
-      "category": "Research",
+      "title": "Detroit Light Metro,
+      "category": "Fun",
       "tags": [
         "Mapping",
         "Report"
       ],
       "year": 2025,
-      "thumb": "assets/sample2.webp",
+      "thumb": "DETLMC.webp",
       "url": "#"
     },
     {
