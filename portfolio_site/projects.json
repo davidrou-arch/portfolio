@@ -1,0 +1,39 @@
+{
+  "projects": [
+    {
+      "shortCode": "d1/",
+      "title": "Coordinated Community Greenspace",
+      "category": "Design",
+      "tags": [
+        "Urban Strategy"
+      ],
+      "year": 2025,
+      "thumb": "assets/sample1.webp",
+      "url": "#"
+    },
+    {
+      "shortCode": "r1/",
+      "title": "Little Village Environmental Report",
+      "category": "Research",
+      "tags": [
+        "Mapping",
+        "Report"
+      ],
+      "year": 2025,
+      "thumb": "assets/sample2.webp",
+      "url": "#"
+    },
+    {
+      "shortCode": "d2/",
+      "title": "Transit Diagram System",
+      "category": "Design",
+      "tags": [
+        "Editorial",
+        "Mapping"
+      ],
+      "year": 2025,
+      "thumb": "assets/sample3.webp",
+      "url": "#"
+    }
+  ]
+}
